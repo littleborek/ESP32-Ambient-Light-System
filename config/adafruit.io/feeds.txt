@@ -1,0 +1,5 @@
+Feed Name	key
+WLED		wled	
+wled/api	wled-slash-api
+wled/col	wled-slash-col
+wled/prismatik	wled-slash-prismatik

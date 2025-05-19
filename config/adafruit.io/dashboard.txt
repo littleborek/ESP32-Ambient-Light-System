@@ -1,0 +1,9 @@
+Feed Name=WLED 		Block Title=Monitor led	Button On Text=ON	Button Off Text=OFF
+Feed Name=WLED		Block Title=Brightness	Slider Min Value=0	Slider Max Value=100	Slider Step Size=1
+Feed Name=wled/col	Block Title=Led color
+Feed Name=wled/api	Block Title=Segment 0	Button On Text=ON	Button On Value={   "seg": [{     "id": 0,     "on": true   }] }	Button Off Text=OFF	Button Off Value={   "seg": [{     "id": 0,     "on": false   }] }
+Feed Name=wled/api	Block Title=Segment 1	Button On Text=ON	Button On Value={   "seg": [{     "id": 1,     "on": true   }] }	Button Off Text=OFF	Button Off Value={   "seg": [{     "id": 1,     "on": false   }] }
+Feed Name=wled/api	Block Title=Segment 2	Button On Text=ON	Button On Value={   "seg": [{     "id": 2,     "on": true   }] }	Button Off Text=OFF	Button Off Value={   "seg": [{     "id": 2,     "on": false   }] }
+Feed Name=wled/api	Block Title=Chase animation	Button On Text=ON	Button On Value={   "seg": [{     "id": 0,"on": true,     "fx": 28   }] }	Button Off Text=OFF	Button Off Value={    "seg": [{     "id": 0,        "on": true,     "fx": 0   }] }
+Feed Name=wled/api	Block Title=Rainbow animation	Button On Text=ON	Button On Value={   "seg": [{     "id": 0,"on": true,     "fx": 9   }] }	Button Off Text=OFF	Button Off Value={    "seg": [{     "id": 0,        "on": true,     "fx": 0   }] }
+Feed Name=wled/api	Block Title=Rainbow animation	Button On Text=ON	Button On Value={   "seg": [{     "id": 0,"on": true,     "fx": 41   }] }	Button Off Text=OFF	Button Off Value={    "seg": [{     "id": 0,        "on": true,     "fx": 0   }] }
